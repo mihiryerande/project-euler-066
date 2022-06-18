@@ -1,7 +1,7 @@
 # Project Euler - Problem 66 - Diophantine Equation
 Consider quadratic Diophantine equations of the form:
 
-$\qquad x^2 – Dy^2 = 1$
+$\qquad x^2 - Dy^2 = 1$
 
 For example, when $D = 13$, the minimal solution in $x$ is $649^2 - 13 \times 180^2 = 1$.
 
