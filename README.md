@@ -1,4 +1,7 @@
-# Project Euler - Problem 66 - Diophantine Equation
+# Project Euler
+
+## Problem 66 - Diophantine Equation
+
 Consider quadratic Diophantine equations of the form:
 
 $\qquad x^2 - Dy^2 = 1$
