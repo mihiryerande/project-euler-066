@@ -22,9 +22,10 @@
 #     Find the value of D ≤ 1000 in minimal solutions of x for which the largest value of x is obtained.
 
 from math import floor, sqrt
+from typing import Tuple
 
 
-def is_perfect_square(n):
+def is_perfect_square(n: int) -> bool:
     """
     Returns True iff `n` is a positive perfect square.
 
@@ -45,7 +46,7 @@ def is_perfect_square(n):
         return int(r) == r
 
 
-def main(d_max):
+def main(d_max: int) -> Tuple[int, int, int]:
     """
     Returns D, x, and y in the diophantine equation x^2 - Dy^2 = 1
       such that D ≤ `d_max` and x is the largest minimal solution among such D.
@@ -54,7 +55,7 @@ def main(d_max):
         d_max (int): Natural number greater than 1
 
     Returns:
-        (int, int, int): D, x, and y in the diophantine equation
+        (Tuple[int, int, int]): D, x, and y in the diophantine equation
           such that D ≤ `d_max` and x is the largest minimal solution among such D.
 
     Raises:
